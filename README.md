@@ -38,3 +38,9 @@ bash scripts/submit_cv5.sh
 **Saved models**
 - Example trained checkpoints are in `scripts/` (e.g. `best_finetuned_cv.pt`, `best_pretrained_cv.pt`).
 
+**Performance**
+- The transfer learning model achieves an accuracy of 83.33% ± 7.86%.
+- Confusion matrix (5-fold CV):
+
+![Confusion matrix](scripts/cm_cv5fold.png)
+
